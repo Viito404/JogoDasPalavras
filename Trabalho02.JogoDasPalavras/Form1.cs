@@ -62,8 +62,7 @@ namespace Trabalho02.JogoDasPalavras
 
                label.Text = button.Text;
 
-
-               if (contagemPosicoes >= 0)
+               if (contagemPosicoes > 0)
                {
                     contagemPosicoes--;
                }
@@ -109,8 +108,9 @@ namespace Trabalho02.JogoDasPalavras
 
           private void btnEntry_Click(object sender, EventArgs e)
           {
+               Label label = VerifyLetterPosition();
                contagemAcertos = 0;
-               if (contagemPosicoes == -1)
+               if (contagemPosicoes == 0 && label.Text != "")
                {
                     VerifyWord();
 
