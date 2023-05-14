@@ -87,11 +87,6 @@ namespace Trabalho02.JogoDasPalavras
                return label;
           }
 
-          private void Form1_Load(object sender, EventArgs e)
-          {
-
-          }
-
           private void btnClear_Click(object sender, EventArgs e)
           {
                Label label = VerifyLetterPosition();

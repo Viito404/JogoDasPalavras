@@ -1016,7 +1016,6 @@
                MinimumSize = new Size(583, 546);
                Name = "Form1";
                Text = "Termus";
-               Load += Form1_Load;
                gbButtons.ResumeLayout(false);
                tlpFirstTry.ResumeLayout(false);
                tlpFirstTry.PerformLayout();
