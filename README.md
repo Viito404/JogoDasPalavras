@@ -14,8 +14,6 @@ suas posições corretas.
 
 
 ## 🗺️ Roadmap
+
 - Adicionar feedback em botões selecionados;
-
-- Adicionar um menu;
-
 - Adicionar mais integrações
