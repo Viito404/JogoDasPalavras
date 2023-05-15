@@ -224,5 +224,19 @@ namespace Trabalho02.JogoDasPalavras
                          break;
                }
           }
+
+          private void button20_Click(object sender, EventArgs e)
+          {
+               //this.Hide();
+               //Form2 formularioMenu = new Form2();
+               //formularioMenu.Show();
+          }
+
+          private void button20_Click_1(object sender, EventArgs e)
+          {
+               this.Hide();
+               Menu menu = new Menu();
+               menu.Show();
+          }
      }
 }

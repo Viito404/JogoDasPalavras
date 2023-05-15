@@ -88,6 +88,7 @@
                label24 = new Label();
                label25 = new Label();
                btnEntry = new Button();
+               button20 = new Button();
                gbButtons.SuspendLayout();
                tlpFirstTry.SuspendLayout();
                tlpSecondTry.SuspendLayout();
@@ -128,9 +129,9 @@
                gbButtons.Controls.Add(button1);
                gbButtons.FlatStyle = FlatStyle.Flat;
                gbButtons.ForeColor = SystemColors.ControlText;
-               gbButtons.Location = new Point(12, 358);
+               gbButtons.Location = new Point(12, 368);
                gbButtons.Name = "gbButtons";
-               gbButtons.Size = new Size(543, 160);
+               gbButtons.Size = new Size(543, 142);
                gbButtons.TabIndex = 0;
                gbButtons.TabStop = false;
                // 
@@ -142,7 +143,7 @@
                button27.FlatAppearance.BorderSize = 0;
                button27.FlatStyle = FlatStyle.Flat;
                button27.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button27.Location = new Point(402, 113);
+               button27.Location = new Point(402, 104);
                button27.Name = "button27";
                button27.Size = new Size(45, 39);
                button27.TabIndex = 25;
@@ -157,7 +158,7 @@
                button26.FlatAppearance.BorderSize = 0;
                button26.FlatStyle = FlatStyle.Flat;
                button26.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button26.Location = new Point(351, 113);
+               button26.Location = new Point(351, 104);
                button26.Name = "button26";
                button26.Size = new Size(45, 39);
                button26.TabIndex = 24;
@@ -172,7 +173,7 @@
                button25.FlatAppearance.BorderSize = 0;
                button25.FlatStyle = FlatStyle.Flat;
                button25.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button25.Location = new Point(300, 113);
+               button25.Location = new Point(300, 104);
                button25.Name = "button25";
                button25.Size = new Size(45, 39);
                button25.TabIndex = 23;
@@ -187,7 +188,7 @@
                button24.FlatAppearance.BorderSize = 0;
                button24.FlatStyle = FlatStyle.Flat;
                button24.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button24.Location = new Point(249, 113);
+               button24.Location = new Point(249, 104);
                button24.Name = "button24";
                button24.Size = new Size(45, 39);
                button24.TabIndex = 22;
@@ -202,7 +203,7 @@
                button23.FlatAppearance.BorderSize = 0;
                button23.FlatStyle = FlatStyle.Flat;
                button23.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button23.Location = new Point(198, 113);
+               button23.Location = new Point(198, 104);
                button23.Name = "button23";
                button23.Size = new Size(45, 39);
                button23.TabIndex = 21;
@@ -217,7 +218,7 @@
                button22.FlatAppearance.BorderSize = 0;
                button22.FlatStyle = FlatStyle.Flat;
                button22.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button22.Location = new Point(147, 113);
+               button22.Location = new Point(147, 104);
                button22.Name = "button22";
                button22.Size = new Size(45, 39);
                button22.TabIndex = 20;
@@ -232,7 +233,7 @@
                button21.FlatAppearance.BorderSize = 0;
                button21.FlatStyle = FlatStyle.Flat;
                button21.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button21.Location = new Point(96, 113);
+               button21.Location = new Point(96, 104);
                button21.Name = "button21";
                button21.Size = new Size(45, 39);
                button21.TabIndex = 19;
@@ -247,7 +248,7 @@
                button19.FlatAppearance.BorderSize = 0;
                button19.FlatStyle = FlatStyle.Flat;
                button19.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button19.Location = new Point(453, 68);
+               button19.Location = new Point(453, 59);
                button19.Name = "button19";
                button19.Size = new Size(45, 39);
                button19.TabIndex = 17;
@@ -262,7 +263,7 @@
                button18.FlatAppearance.BorderSize = 0;
                button18.FlatStyle = FlatStyle.Flat;
                button18.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button18.Location = new Point(402, 68);
+               button18.Location = new Point(402, 59);
                button18.Name = "button18";
                button18.Size = new Size(45, 39);
                button18.TabIndex = 16;
@@ -277,7 +278,7 @@
                button17.FlatAppearance.BorderSize = 0;
                button17.FlatStyle = FlatStyle.Flat;
                button17.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button17.Location = new Point(351, 68);
+               button17.Location = new Point(351, 59);
                button17.Name = "button17";
                button17.Size = new Size(45, 39);
                button17.TabIndex = 15;
@@ -292,7 +293,7 @@
                button16.FlatAppearance.BorderSize = 0;
                button16.FlatStyle = FlatStyle.Flat;
                button16.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button16.Location = new Point(300, 68);
+               button16.Location = new Point(300, 59);
                button16.Name = "button16";
                button16.Size = new Size(45, 39);
                button16.TabIndex = 14;
@@ -307,7 +308,7 @@
                button15.FlatAppearance.BorderSize = 0;
                button15.FlatStyle = FlatStyle.Flat;
                button15.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button15.Location = new Point(249, 68);
+               button15.Location = new Point(249, 59);
                button15.Name = "button15";
                button15.Size = new Size(45, 39);
                button15.TabIndex = 13;
@@ -322,7 +323,7 @@
                button14.FlatAppearance.BorderSize = 0;
                button14.FlatStyle = FlatStyle.Flat;
                button14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button14.Location = new Point(198, 68);
+               button14.Location = new Point(198, 59);
                button14.Name = "button14";
                button14.Size = new Size(45, 39);
                button14.TabIndex = 12;
@@ -337,7 +338,7 @@
                button13.FlatAppearance.BorderSize = 0;
                button13.FlatStyle = FlatStyle.Flat;
                button13.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button13.Location = new Point(147, 68);
+               button13.Location = new Point(147, 59);
                button13.Name = "button13";
                button13.Size = new Size(45, 39);
                button13.TabIndex = 11;
@@ -352,7 +353,7 @@
                button12.FlatAppearance.BorderSize = 0;
                button12.FlatStyle = FlatStyle.Flat;
                button12.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button12.Location = new Point(96, 68);
+               button12.Location = new Point(96, 59);
                button12.Name = "button12";
                button12.Size = new Size(45, 39);
                button12.TabIndex = 10;
@@ -367,7 +368,7 @@
                button11.FlatAppearance.BorderSize = 0;
                button11.FlatStyle = FlatStyle.Flat;
                button11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button11.Location = new Point(45, 68);
+               button11.Location = new Point(45, 59);
                button11.Name = "button11";
                button11.Size = new Size(45, 39);
                button11.TabIndex = 1;
@@ -382,7 +383,7 @@
                button10.FlatAppearance.BorderSize = 0;
                button10.FlatStyle = FlatStyle.Flat;
                button10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button10.Location = new Point(479, 23);
+               button10.Location = new Point(479, 14);
                button10.Name = "button10";
                button10.Size = new Size(45, 39);
                button10.TabIndex = 9;
@@ -397,7 +398,7 @@
                button9.FlatAppearance.BorderSize = 0;
                button9.FlatStyle = FlatStyle.Flat;
                button9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button9.Location = new Point(428, 23);
+               button9.Location = new Point(428, 14);
                button9.Name = "button9";
                button9.Size = new Size(45, 39);
                button9.TabIndex = 8;
@@ -412,7 +413,7 @@
                button8.FlatAppearance.BorderSize = 0;
                button8.FlatStyle = FlatStyle.Flat;
                button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button8.Location = new Point(377, 23);
+               button8.Location = new Point(377, 14);
                button8.Name = "button8";
                button8.Size = new Size(45, 39);
                button8.TabIndex = 7;
@@ -427,7 +428,7 @@
                button7.FlatAppearance.BorderSize = 0;
                button7.FlatStyle = FlatStyle.Flat;
                button7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button7.Location = new Point(326, 23);
+               button7.Location = new Point(326, 14);
                button7.Name = "button7";
                button7.Size = new Size(45, 39);
                button7.TabIndex = 6;
@@ -442,7 +443,7 @@
                button6.FlatAppearance.BorderSize = 0;
                button6.FlatStyle = FlatStyle.Flat;
                button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button6.Location = new Point(275, 23);
+               button6.Location = new Point(275, 14);
                button6.Name = "button6";
                button6.Size = new Size(45, 39);
                button6.TabIndex = 5;
@@ -457,7 +458,7 @@
                button5.FlatAppearance.BorderSize = 0;
                button5.FlatStyle = FlatStyle.Flat;
                button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button5.Location = new Point(224, 23);
+               button5.Location = new Point(224, 14);
                button5.Name = "button5";
                button5.Size = new Size(45, 39);
                button5.TabIndex = 4;
@@ -472,7 +473,7 @@
                button4.FlatAppearance.BorderSize = 0;
                button4.FlatStyle = FlatStyle.Flat;
                button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button4.Location = new Point(173, 23);
+               button4.Location = new Point(173, 14);
                button4.Name = "button4";
                button4.Size = new Size(45, 39);
                button4.TabIndex = 3;
@@ -487,7 +488,7 @@
                button3.FlatAppearance.BorderSize = 0;
                button3.FlatStyle = FlatStyle.Flat;
                button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button3.Location = new Point(122, 23);
+               button3.Location = new Point(122, 14);
                button3.Name = "button3";
                button3.Size = new Size(45, 39);
                button3.TabIndex = 2;
@@ -502,7 +503,7 @@
                button2.FlatAppearance.BorderSize = 0;
                button2.FlatStyle = FlatStyle.Flat;
                button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button2.Location = new Point(71, 23);
+               button2.Location = new Point(71, 14);
                button2.Name = "button2";
                button2.Size = new Size(45, 39);
                button2.TabIndex = 1;
@@ -517,7 +518,7 @@
                button1.FlatAppearance.BorderSize = 0;
                button1.FlatStyle = FlatStyle.Flat;
                button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-               button1.Location = new Point(20, 23);
+               button1.Location = new Point(20, 14);
                button1.Name = "button1";
                button1.Size = new Size(45, 39);
                button1.TabIndex = 0;
@@ -998,12 +999,29 @@
                btnEntry.UseVisualStyleBackColor = false;
                btnEntry.Click += btnEntry_Click;
                // 
+               // button20
+               // 
+               button20.Anchor = AnchorStyles.None;
+               button20.BackColor = Color.LightGray;
+               button20.FlatAppearance.BorderColor = Color.Black;
+               button20.FlatAppearance.BorderSize = 0;
+               button20.FlatStyle = FlatStyle.Flat;
+               button20.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+               button20.Location = new Point(32, 78);
+               button20.Name = "button20";
+               button20.Size = new Size(45, 39);
+               button20.TabIndex = 28;
+               button20.Text = "↩";
+               button20.UseVisualStyleBackColor = false;
+               button20.Click += button20_Click_1;
+               // 
                // Form1
                // 
                AutoScaleDimensions = new SizeF(7F, 15F);
                AutoScaleMode = AutoScaleMode.Font;
                BackColor = SystemColors.ControlLightLight;
                ClientSize = new Size(567, 522);
+               Controls.Add(button20);
                Controls.Add(btnEntry);
                Controls.Add(tlpFifthTry);
                Controls.Add(btnClear);
@@ -1015,6 +1033,7 @@
                Icon = (Icon)resources.GetObject("$this.Icon");
                MinimumSize = new Size(583, 546);
                Name = "Form1";
+               StartPosition = FormStartPosition.CenterScreen;
                Text = "Termus";
                gbButtons.ResumeLayout(false);
                tlpFirstTry.ResumeLayout(false);
@@ -1091,5 +1110,6 @@
           private Label label25;
           private Button btnClear;
           private Button btnEntry;
+          private Button button20;
      }
 }

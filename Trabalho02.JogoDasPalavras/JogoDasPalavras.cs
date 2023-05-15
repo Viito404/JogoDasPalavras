@@ -49,6 +49,7 @@ namespace Trabalho02.JogoDasPalavras
      "igual", "ileso", "imune", "irado", "isola", "jarra", "jaula", "jegue", "jeito", "jogar",
      "jovem", "juíza", "juizo", "julho", "junho", "jurar", "justa"
 };
+
           private string[] palavrasSemAcento = new string[]
           {
      "acido", "adiar", "impar", "algar", "amado", "amigo", "anexo", "anuir", "aonde", "apelo",
